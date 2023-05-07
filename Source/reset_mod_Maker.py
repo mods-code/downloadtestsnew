@@ -2,7 +2,7 @@ from tkinter import messagebox
 from delete_all_mods import delete_all_mods,delete_pycache
 
 def reset_mod_maker():
-    datei = open("id.config",'w')
+    datei = open("id.fmmconfig",'w')
     datei.write("427520")
     datei.close
     delete_all_mods()
