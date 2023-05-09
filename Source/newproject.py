@@ -56,7 +56,3 @@ def lua_editor(modname,code,script_name,textColor):
     text_zone.pack(expand = tk.YES, fill = tk.BOTH, side = tk.LEFT)
     text_zone.insert("0.0", code)
     window.mainloop()
-
-with open("mods/" + "mymod" + "/" + "testtoloadcode" + ".lua", "r") as file:
-    filetext = file.read()
-    file.close()
