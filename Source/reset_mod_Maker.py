@@ -7,7 +7,6 @@ def reset_mod_maker():
     datei.close
     delete_all_mods()
     delete_pycache()
-
 result = messagebox.askyesno("Delete", "Are you sure you want to reset Mod Maker?", icon='warning', default='no')
 if result == True:
   reset_mod_maker()
